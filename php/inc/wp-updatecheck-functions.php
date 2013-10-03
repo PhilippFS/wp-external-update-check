@@ -1,6 +1,6 @@
 <?php
-// PHP functions for the wp-external-update-check script from cconrad:
-// https://github.com/cconrad/wp-external-update-check
+-// PHP functions for the wp-external-update-check script from cconrad:
+-// https://github.com/cconrad/wp-external-update-check
 
 function wpuc_core( $url ) {
 	$json = file_get_contents($url);
@@ -25,7 +25,7 @@ function wpuc_plugins( $url ) {
 		}
 	}
 	else {
-		echo _('No updates available.');
+		echo '<p class="uptodate">'._('No updates available.').'.</p>';
 	}
 } //function wpuc_plugins
 
@@ -40,7 +40,7 @@ function wpuc_themes( $url ) {
 		echo '</ul>';
 	}
 	else {
-		echo _('No updates available.');
+		echo '<p class="uptodate">'._('No updates available.').'.</p>';
 	}
 }// function wpuc_themes
 ?>

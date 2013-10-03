@@ -10,6 +10,11 @@ Installation
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Copy the private URL displayed and use it however you want to (e. g. in a cron script, Jenkins, monitoring system, manually in a browser, etc.)
 
+PHP Usage
+------------
+
+1. Copy the URL provided to the php/index.php (line 33)
+
 Frequently Asked Questions
 --------------------------
 
