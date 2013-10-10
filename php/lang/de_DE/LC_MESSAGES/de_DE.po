@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Wordpress Admin\n"
-"POT-Creation-Date: 2013-10-03 16:47+0100\n"
-"PO-Revision-Date: 2013-10-03 17:16+0100\n"
+"POT-Creation-Date: 2013-10-11 00:05+0100\n"
+"PO-Revision-Date: 2013-10-11 00:06+0100\n"
 "Last-Translator: Philipp Sümmermann <p.suemmermann@oldmedia.de>\n"
 "Language-Team: Philipp Sümmermann\n"
 "Language: de_DE\n"
@@ -13,33 +13,50 @@ msgstr ""
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: ../../..\n"
+"X-Poedit-SearchPath-0: ../..\n"
 
-#: ../../../wpadm/index.php:99 ../../../wpadm/index.php:152
+#: ../../inc/wp-updatecheck-functions.php:18
 msgid "Core"
 msgstr "Kernsystem"
 
-#: ../../../wpadm/index.php:102 ../../../wpadm/index.php:155
+#: ../../inc/wp-updatecheck-functions.php:20
 msgid "New version available:"
 msgstr "Neue Version verfügbar:"
 
-#: ../../../wpadm/index.php:106 ../../../wpadm/index.php:159
+#: ../../inc/wp-updatecheck-functions.php:24
 #, fuzzy
 msgid "Wordpress is up to date."
 msgstr "Wordpress ist auf dem neuesten Stand."
 
-#: ../../../wpadm/index.php:112 ../../../wpadm/index.php:165
+#: ../../inc/wp-updatecheck-functions.php:28
 msgid "Plugins"
 msgstr "Plugins"
 
-#: ../../../wpadm/index.php:123 ../../../wpadm/index.php:139
-#: ../../../wpadm/index.php:176 ../../../wpadm/index.php:193
+#: ../../inc/wp-updatecheck-functions.php:39
+#: ../../inc/wp-updatecheck-functions.php:52
 msgid "No updates available."
 msgstr "Keine Aktualisierungen verfügbar."
 
-#: ../../../wpadm/index.php:129 ../../../wpadm/index.php:182
+#: ../../inc/wp-updatecheck-functions.php:43
 msgid "Themes"
 msgstr "Themes"
+
+#: ../../inc/wp-updatecheck-functions.php:58
+msgid "Error"
+msgstr "Fehler"
+
+#: ../../inc/wp-updatecheck-functions.php:58
+msgid "Error fetching WordPress status."
+msgstr "Fehler beim Abrufen des Status von WordPress."
+
+#: ../../inc/wp-updatecheck-functions.php:63
+msgid "Fatal error"
+msgstr "Fataler Fehler"
+
+#: ../../inc/wp-updatecheck-functions.php:63
+msgid "Error reading configuration file. Please check config.php"
+msgstr ""
+"Fehler beim Lesen der Konfigurationsdatei. Bitte überprüfe die config.php"
 
 #~ msgid "No plugin updates."
 #~ msgstr "Keine Plugin-Updates."

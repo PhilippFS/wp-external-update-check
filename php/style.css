@@ -1,34 +1,45 @@
-	h2 {
-		clear: both;
-	}
-	.core, .themes, .plugins {
-		float: left;
-		display: block;
-		background-color: #eee;
-		width: 350px;
-	}
-	.plugins {
-		background-color: #ddd;
-	}
-	.uptodate {
-		color: green;
-	}
-	.update {
-	}
-	li.update {
-		list-style-type: none;
-		text-decoration: none;
-	}
-	li.update a {
-		color: #CC3333;;
-	}
-	.ui-tooltip {
-		position: absolute;
-		max-width: 20em;
-		background-color:#ffa;
-		border:1px solid #cc9;
-		padding:3px;
-		font-size:13px;
-		-moz-box-shadow: 2px 2px 11px #666;
-		-webkit-box-shadow: 2px 2px 11px #666;
-	} 
+h2 {
+	clear: both;
+}
+.status {
+	 display: table;
+}
+.status h3 {
+	margin: 3px;
+} 
+.status ul, .status p {
+	margin-left: 8px;
+	padding: 0;
+}
+.core, .themes, .plugins {
+	display: table-cell;
+	background-color: #eee;
+	width: 300px;
+	padding: 0 3px;
+}
+.plugins {
+	background-color: #ddd;
+}
+.uptodate {
+	color: green;
+}
+.update {
+	color: #CC3333;
+}
+.status li {
+	list-style-type: none;
+	text-decoration: none;
+}
+.status li a {
+	color: #CC3333;
+}
+.ui-tooltip {
+	position: absolute;
+	max-width: 20em;
+	background-color:#eee;
+	border:1px solid #333;
+	padding:3px;
+	font-size:13px;
+	-moz-box-shadow: 2px 2px 11px #666;
+	-webkit-box-shadow: 2px 2px 11px #666;
+}

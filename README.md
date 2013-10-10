@@ -13,7 +13,8 @@ Installation
 PHP Usage
 ------------
 
-1. Copy the URL provided to the php/index.php (line 33)
+1. Edit the php/config.php by copying the provided URL.
+2. Open index.php in browser to see status of WordPress installations.
 
 Frequently Asked Questions
 --------------------------

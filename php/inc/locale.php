@@ -1,5 +1,4 @@
 <?php
-// Script for providing localization
   if (isset($_GET["locale"])) {
     $locale = $_GET["locale"];
   }
